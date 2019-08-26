@@ -1,6 +1,6 @@
-			-------------- 🔢 JS Events 🔢 --------------
+			     -------------- 🔢 JS Events 🔢 --------------
 
-						Liste des exos réalisés:
+						  Liste des exos réalisés:
 
 ```sh
 1) Fonctionnalité 1 & 1bis liée au footer 👋
@@ -13,7 +13,7 @@
 ```
 N.B : Bon pour le reste on avait la flemme!!!!!! PEACEEEE.
 
-		---------------- 🧑🏼 Enjoy!!! 👨🏻 ----------------
+		     ---------------- 🧑🏼 Enjoy!!! 👨🏻 ----------------
 
 
       			Provided by 🚀 "La Team du Futur" 🚀
