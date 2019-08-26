@@ -68,5 +68,26 @@ var BooDelete = function() {
 
 navbar.addEventListener("dblclick", BooDelete);
 
+/* 6th functionnality; Let go nuclear ☢*/
+console.log("Faisons disparaître Boo Boo:double clique sur la navbar et observe cette option nucléaire!🙈🙈");
 
+let viewButtons = document.getElementsByClassName('btn-success');
+let cardImages = document.getElementsByClassName('card-img-top');
+let cardTexts = document.getElementsByClassName('card-text');
+
+for(let i = 0; i < viewButtons.length; i ++){
+	let viewStatus = true;
+	viewButtons[i].addEventListener('mouseover', function viewOver() {
+		if(viewStatus == true){
+			cardTexts[i].style.display = 'none';
+			cardImages[i].style.width = '50%';
+			viewStatus = false;
+		}
+		else if(viewStatus == false){
+			cardTexts[i].style.display = 'block';
+			cardImages[i].style.width = '100%';
+			viewStatus = true;
+		}	
+	})
+}
 
