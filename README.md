@@ -16,5 +16,5 @@ N.B : Bon pour le reste on avait la flemme!!!!!! PEACEEEE.
 ---------------- 🧑🏼 Enjoy!!! 👨🏻 ----------------
 
 
-     	Provided by 🚀 "La Team du Futur" 🚀
+     Provided by 🚀 "La Team du Futur" 🚀
 
