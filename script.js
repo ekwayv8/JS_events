@@ -12,7 +12,7 @@ var clickFooter = function() {
 footer.addEventListener('click', clickFooter);
 
 /* 2nd functionnality; Let make that ...... Hamburger Menu*/
-
+console.log("##########################");
 console.log("Hamburger menu 🍔: clique sur le bouton menu et le menu apparaîtrera! 🥳");
 
 let menuBtn = document.querySelector('.navbar-toggler');
@@ -20,6 +20,7 @@ let menu = document.querySelector('#navbarHeader');
 	menuBtn.addEventListener('click', function collapse() {
 	menu.classList.toggle("collapse");})
 
+console.log("##########################");
 /* 3rd functionnality; Let change the color of the text for the first card*/
 console.log("clique sur le bouton Edit de la 1ère card et change à tout jamais la couleur du texte associé à cette dernière 🧟😱");
 let editBtn = document.getElementsByClassName('btn-outline-secondary')[0];
@@ -32,7 +33,7 @@ var clickEdit = function() {
 editBtn.addEventListener("click", clickEdit);
 
 /* 4th functionnality; Let do something similar to the prévious functionnality but much more fun*/
-
+console.log("##########################");
 console.log("clique sur le bouton Edit de la 2nde card et change la couleur mais de manière réversible🧠💡");
 
 let editBtn2 = document.getElementsByClassName('btn-outline-secondary')[1];
@@ -46,6 +47,7 @@ editBtn2.addEventListener('click', function greenText() {
 	 else {
 	 cardText2.style.color = '';}})
 
+console.log("##########################");
 /* 5th functionnality; Let go nuclear ☢*/
 console.log("Faisons disparaître Boo Boo:double clique sur la navbar et observe cette option nucléaire!☢🤯");
 
@@ -69,6 +71,7 @@ var BooDelete = function() {
 navbar.addEventListener("dblclick", BooDelete);
 
 /* 6th functionnality; Let go nuclear ☢*/
+console.log("##########################");
 console.log("Faisons disparaître Boo Boo:double clique sur la navbar et observe cette option nucléaire!🙈🙈");
 
 let viewButtons = document.getElementsByClassName('btn-success');
@@ -90,4 +93,16 @@ for(let i = 0; i < viewButtons.length; i ++){
 		}	
 	})
 }
+
+/* 7th functionnality; grey button ☢*/
+console.log("##########################");
+console.log("Click on the grey button and enjoy  🚀!")
+let greyBtn = document.getElementsByClassName('btn-secondary')[0];
+let parentElt = document.getElementsByClassName('row')[1];
+greyBtn.addEventListener('click', function changeCard() {
+	parentElt.insertBefore(parentElt.lastElementChild, parentElt.children[0]);
+})
+console.log("##########################");
+/* That it for me ☢*/
+console.log("THE ENDDDDD ! PEACEEE 🧑🏼👨🏻");
 
