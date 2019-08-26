@@ -1,4 +1,5 @@
 /* 1st functionnality; Let count those clicks*/
+console.log("Echauffons-nous avec ce 1er exo sur le footer🦶🏽🦶🏽");
 let footer = document.getElementsByTagName('footer')[0];
 
 let clicks = 0;
@@ -44,3 +45,28 @@ editBtn2.addEventListener('click', function greenText() {
 	  }
 	 else {
 	 cardText2.style.color = '';}})
+
+/* 5th functionnality; Let go nuclear ☢*/
+console.log("Faisons disparaître Boo Boo:double clique sur la navbar et observe cette option nucléaire!☢🤯");
+
+let navbar = document.getElementsByTagName('header')[0];
+let styleStatus = true;
+
+var BooDelete = function() {
+  if (styleStatus) {
+    document.getElementsByTagName('link')[0].remove()
+    styleStatus = false;
+  } else {
+    let head = document.getElementsByTagName('head')[0];
+    let bootstrap = document.createElement('link');
+    bootstrap.rel = "stylesheet";
+    bootstrap.href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+    head.appendChild(bootstrap);
+    styleStatus = true;
+  }
+}
+
+navbar.addEventListener("dblclick", BooDelete);
+
+
+
